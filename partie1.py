@@ -13,5 +13,9 @@ except ZeroDivisionError:
 
 
 # ex 3 communiqué avec l'ordinateur
-nom = input("merci d'indiquer votre nom")
-print("bienvenue" +""+ nom)
+B = input("merci d'indiquer votre nom")
+print("bienvenue" +" "+ B)
+
+nom = "kassama"
+prenom = "fally"
+print("bonjour" +" "+nom+" "+prenom)

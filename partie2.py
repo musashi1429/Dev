@@ -37,7 +37,13 @@ prix3 = 20
 somme_dachat = (prix1 + prix2 + prix3)
 porte_monney = int(input("combien à tu ? "))
 
-
 print(somme_dachat* 0.8)
 print("il te reste")
 print(porte_monney - somme_dachat)
+
+## 4\.Exercice 4 : une calculatrice Python
+
+number_insert1 = int(input(" inserer le premier nombre à additioné"))
+number_insert2 = int(input(" inserer le second nombre à additionné"))
+
+print(number_insert1 + number_insert2)

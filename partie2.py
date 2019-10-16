@@ -47,3 +47,10 @@ number_insert1 = int(input(" inserer le premier nombre à additioné"))
 number_insert2 = int(input(" inserer le second nombre à additionné"))
 
 print(number_insert1 + number_insert2)
+
+## 5\.Exercice 5 : travailler avec les propriétés
+
+prenomvisit = str(input("votre prenom").upper())
+nomvisit = str(input("votre nom").upper())
+
+print(prenomvisit[0]+prenomvisit[-1]+nomvisit[0]+nomvisit[-1])

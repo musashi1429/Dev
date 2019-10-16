@@ -19,9 +19,17 @@ print("bienvenue" +" "+ B)
 nom = "kassama"
 prenom = "fally"
 print("bonjour" +" "+nom+" "+prenom)
+print("bonjour {} {}".format(nom, prenom))
 
 
 MyNumber = "123"
 
 MyNumber = int(MyNumber)
 print(type(MyNumber))
+
+nom = str(nom)
+prenom = str(prenom)
+
+
+print(nom.upper())
+print(prenom.lower())

@@ -27,3 +27,17 @@ Annee_actuelle = int(input("Annee actuelle ?:"))
 Annee_de_naissance = int(input("votre  annee de naissance ?:"))
 age = Annee_actuelle - Annee_de_naissance
 print(age)
+
+
+## 3\.Exercice 3 : Problème de chaussures
+
+prix1 = 70
+prix2 = 59
+prix3 = 20
+somme_dachat = (prix1 + prix2 + prix3)
+porte_monney = int(input("combien à tu ? "))
+
+
+print(somme_dachat* 0.8)
+print("il te reste")
+print(porte_monney - somme_dachat)

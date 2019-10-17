@@ -12,13 +12,18 @@ print(max(list))
 ##Exercice 2
 import math
 user = ""
-while user != "D":
+while user != "stop":
     print("entrer votre age")
     Age = int(input())
     if Age <= 0:
         print("merci d'indiquer un age réel")
-    elif Age >= 21:
+    if Age >= 21:
         print("vous étes autorisé a accéder au portail")
-    elif Age%2 == 0:
+    if Age%2 == 0:
         print("age pair,mhh,chanceux!!!")
-    user = str(input("si vous voulez quittez tapez D "))
+    if math.sqrt(Age).is_integer():
+        print("votre age et un carré")
+    user = str(input("si vous voulez quittez tapez stop ou entrer pour continuer"))
+
+
+##Exercice 3

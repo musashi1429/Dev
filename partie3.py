@@ -49,8 +49,13 @@ if(s=="stop"):
     print("au revoir")
 
 
-
 ## 4\.Exercice 4 : Des nombres en boucle
 input("appuie entrer pour que je compte jusqu'a 100")
 for r in range(101):
     print(r)
+
+## Exercice5
+print("exercice5")
+for x in range(101):
+    if x%2 == 0:
+        print(int(x), "paire")

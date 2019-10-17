@@ -29,15 +29,28 @@ while user != "stop":
 ##Exercice 3
 v = random.randint(1,11)
 u = int(input("trouver le chiffre au hasard: "))
-while u != v:
+s =""
+while u != v and s !="stop":
      if u < v:
          print("trop bas mon petit")
          u=int(input("allez, un autre"))
+         s=input(" taper stop")
      if u > v:
          print("trop haut mon grand")
          u=int(input("allez, un autre"))
+         s=str(input(" enter stop pour sortir"))
      if u == v:
          print("petit ou grand malin,Bravo!!!")
-         u=int(input("trouver le chiffre au hasard: "))
-     elif u == str(input("stop")):
-          break
+         u=(input("trouver le chiffre au hasard: "))
+         s=input(" enter stop pour sortir")
+if(u==v):
+    print("win")
+if(s=="stop"):
+    print("au revoir")
+
+
+
+## 4\.Exercice 4 : Des nombres en boucle
+input("appuie entrer pour que je compte jusqu'a 100")
+for r in range(101):
+    print(r)

@@ -39,4 +39,5 @@ while u != v:
      if u == v:
          print("petit ou grand malin,Bravo!!!")
          u=int(input("trouver le chiffre au hasard: "))
-    if 
+     elif u == str(input("stop")):
+          break

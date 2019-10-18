@@ -65,6 +65,10 @@ for i in range(101):
 long = int(input("longueur"))
 larg = int(input("largeur"))
 hauteur = int(input("hauteur"))
+debit_m3_min = int(input("debit"))
 
 Volume_piscine = long + larg + hauteur
+temp_de_remplissage = debit_m3_min * Volume_piscine
+print("le volume de la piscine et de :")
 print(Volume_piscine)
+print(temp_de_remplissage)

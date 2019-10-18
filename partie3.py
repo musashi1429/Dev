@@ -60,3 +60,11 @@ print("exercice5")
 for i in range(101):
     if i%2 == 0:
         print(int(i), "paire")
+
+## Exercice6
+long = int(input("longueur"))
+larg = int(input("largeur"))
+hauteur = int(input("hauteur"))
+
+Volume_piscine = long + larg + hauteur
+print(Volume_piscine)

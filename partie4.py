@@ -69,3 +69,10 @@ def re(text):
 
 texti="oulou - - - - - louuuu"
 print(re(texti))
+
+### exercice 6
+tableau = ["botte", "glasse", "ruta", "hotte","op"]
+print("merci d'acheté", tableau[0],"et", tableau[-1])
+print("merci d'acheté", max(tableau))
+
+###exercice 7

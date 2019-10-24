@@ -55,6 +55,17 @@ print(pair(panier))
 print("insert number ")
 chiffre= int(input())
 print("le factorielle de ", chiffre, "=")
+facto = 1
 while chiffre != 1:
+    print("*",chiffre, end='' )
+    facto *= chiffre
     chiffre -= 1
-    print("*",chiffre, end='')
+print("\n", facto)
+
+###exercice 5:
+def re(text):
+    text = text.replace('-', '\_')
+    return(text)
+
+texti="oulou - - - - - louuuu"
+print(re(texti))

@@ -76,3 +76,36 @@ print("merci d'acheté", tableau[0],"et", tableau[-1])
 print("merci d'acheté", max(tableau))
 
 ###exercice 7
+
+perso=["kassama", "fally", "28", "1990"]
+perso2=["ouloulou","tmsoule","56", "1936"]
+
+nom = input("nom? ")
+prenom= input("prenom? ")
+age = input("age? ")
+date_de_naissance= input("date de naissance ?")
+
+perso3=[nom, prenom, age, date_de_naissance]
+
+character=[perso,perso2,perso3]
+
+print("appuyer 1 pour le premier personnage et 2 pour le segond")
+
+while input() != "stop":
+    if input("tapez un chiffre") == "1":
+        print(perso[0], perso[1],"a",perso[2], "et est néé en",perso[3])
+    else :
+        print("merci de de choisir 1 ou 2")
+
+    if input("tapez un chiffre") == "2":
+        print(perso2[0], perso2[1],"a",perso2[2], "et est néé en",perso2[3])
+    else :
+        print("merci de de choisir 1 ou 2 ou 3")
+
+    if input("tapez un chiffre") == "3":
+        print(perso3[0], perso3[1],"a",perso3[2], "et est néé en",perso3[3])
+    else :
+        print("merci de de choisir 1 ou 2 ou 3")
+
+if input() == "stop":
+    print("bye bye")

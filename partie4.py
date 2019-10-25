@@ -77,6 +77,35 @@ print("merci d'acheté", max(tableau))
 
 ###exercice 7
 
+#import json
+
+#def personne(personnage,info ):
+#    values = []
+#    with open("personnage") as f:
+#        data = json.load(f)
+#        for entry in data:
+#            values.append(entry[2])
+#    return values
+
+
+#print(personne([2],info))
+
+character = [
+["kassama","fally","28","1990"],
+["kazama","jin","33","1986"],
+["","","",""]
+]
+
+
+if input("choisi le perso que tu veux 1,2 ou 3 ") == "1":
+    print(character[0],)
+if input("choisi le perso que tu veux 1,2 ou 3 ") == "2":
+    print(character[1],)
+
+if input("choisi le perso que tu veux 1,2 ou 3 ") == "3":
+    print(character[2],)
+
+
 perso=["kassama", "fally", "28", "1990"]
 perso2=["ouloulou","tmsoule","56", "1936"]
 
@@ -105,3 +134,7 @@ while input() != "stop":
 
 if input() == "stop":
     print("bye bye")
+###exercice 8
+
+list=[20,30,40,50,100]
+print(max(list))

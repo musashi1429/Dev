@@ -117,10 +117,11 @@ date_de_naissance= input("date de naissance ?")
 perso3=[nom, prenom, age, date_de_naissance]
 
 character=[perso,perso2,perso3]
-
+off = ""
 print("perso differents")
 
-while input() != "stop":
+while off != "stop":
+    off = input("tu veux arreter?")
     if input("tapez 1 pour le premier perso") == "1":
         print(perso[0], perso[1],"a",perso[2], "et est néé en",perso[3])
 
@@ -136,5 +137,13 @@ if input() == "stop":
     print("bye bye")
 ###exercice 8
 
-list=[20,30,40,50,100]
-print(max(list))
+
+
+#### exercice 9
+todolist = []
+task = ""
+while task != "stop":
+    task = input("met ce que tu veux pardi !!")
+    todolist.append(task)
+for task in todolist :
+    print(task)

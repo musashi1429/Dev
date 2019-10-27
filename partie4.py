@@ -136,7 +136,20 @@ while off != "stop":
 if input() == "stop":
     print("bye bye")
 ###exercice 8
+grille = ["nsdvnsl","hsdljshg","jnskjn", 349,6754754, 9]
+listtr = []
+listint = []
 
+def table(tab):
+    listtr = list()
+    listint = list()
+for element in grille :
+    if isinstance((element),str):
+        listtr.append(element)
+    if isinstance((element),int):
+        listint.append(element)
+
+print(len(listtr))
 
 
 #### exercice 9

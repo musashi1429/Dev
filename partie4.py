@@ -136,9 +136,10 @@ while off != "stop":
 if input() == "stop":
     print("bye bye")
 ###exercice 8
-grille = ["nsdvnsl","hsdljshg","jnskjn", 349,6754754, 9]
+grille = ["nsdvnsl","hsdljshg","jnskjn", 4,2, 1]
 listtr = []
 listint = []
+longest = ""
 
 def table(tab):
     listtr = list()
@@ -148,9 +149,15 @@ for element in grille :
         listtr.append(element)
     if isinstance((element),int):
         listint.append(element)
+table(grille)
+for i in range(len(listtr)):
+    if len(listtr[i]) > len(longest):
+        longest = listtr[i]
 
-print(len(listtr))
-
+if len(longest) > max(listint):
+    print(longest)
+else:
+    print(max(listint))
 
 #### exercice 9
 todolist = []
